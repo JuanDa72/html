@@ -1,0 +1,55 @@
+body{
+    background-color: #1CE3E8;
+}
+
+#headerPrincipal{
+    background-color: #9169EB;
+    padding:4px;
+    width: 400px;
+    text-align: center;
+    margin: 10px auto 30px auto;
+    border: 3px solid #1C21E8;
+    border-radius: 30px;
+    box-shadow: #6995E8 5px 5px;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: #1C21E8 1px 1px 3px;
+}
+
+
+footer{
+    background-color: #1C62E8;
+}
+
+nav li{
+    display: inline;
+    background-color: #3D3DD9;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: #3D3DD9;
+}
+
+
+#headerSecundario{
+    text-align: center;
+}
+
+#estiloP1{
+    text-align: center;
+}
+
+#imagen-center{
+    text-align: center;
+}
+
