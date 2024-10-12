@@ -1,0 +1,88 @@
+/* Reiniciamos algunos valores para una mejor consistencia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna y legible */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* Gradiente suave */
+    color: #333; /* Color de texto más oscuro para mejorar la legibilidad */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Mínimo para ocupar toda la pantalla */
+}
+
+header {
+    background-color: #34CF23;
+    padding: 20px; /* Aumentamos el padding para más espacio */
+    width: 80%; /* Ajustamos el ancho a un porcentaje para mayor adaptabilidad */
+    max-width: 800px; /* Máximo ancho */
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 15px; /* Borde más sutil */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra más ligera y moderna */
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; /* Tipografía más moderna */
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Sombra más sutil en el texto */
+}
+
+section {
+    width: 100%;
+    max-width: 1200px; /* Establecemos un máximo de ancho */
+    display: flex;
+    flex-wrap: wrap; /* Ahora permitimos que las figuras se adapten mejor */
+    justify-content: center; /* Centramos las figuras */
+    gap: 20px; /* Separación entre las figuras */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    border-radius: 10px; /* Redondeado suave */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+    border: none; /* Eliminamos el borde */
+    border-radius: 15px; /* Borde más suave y redondeado */
+    overflow: hidden; /* Ocultamos el desbordamiento del contenido */
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Suavizamos las transiciones */
+    width: 200px; /* Tamaño consistente */
+    text-align: center;
+    background-color: #fff; /* Fondo blanco moderno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+figure img {
+    width: 100%; /* Imagen ajustada al tamaño del contenedor */
+    height: auto; /* Proporciones de la imagen mantenidas */
+}
+
+figure figcaption {
+    padding: 10px; /* Espaciado alrededor del texto */
+    font-size: 1.1em; /* Tamaño de letra más grande */
+    color: #333;
+    background-color: #f9f9f9; /* Fondo claro */
+}
+
+figure:hover {
+    transform: scale(1.08); /* Aumentamos un poco más el escalado */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+}
+
+footer {
+    background-color:  #34CF23;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    border-radius: 10px 10px 0 0; /* Solo redondeamos la parte superior del footer */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Sombra en la parte superior */
+    margin-top: auto;
+}
