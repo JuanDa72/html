@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#IdParrafo{
+    background: linear-gradient(to right, #e7d747, #c5bc65);
+}
+
+.claseP{
+    background-color: #6741F0;
+}
+
+p{
+    margin: 12px auto;
+}
+
+#parrafoQ{
+    background-color: rgba(72, 209, 198, 0.5);
+}
+
+.classQuery{
+    background: linear-gradient(to top, #9a63ec, #7253a0)
+}
