@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #020000;
+}
+
+h1{
+    text-align: center;
+}
+
+#idLogo{
+    width: 25%;
+    height: 25%;
+}
+
+.headerTitle{
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer{
+    background-color: #eae42a;
+    padding: 14px auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 11px 11px 0px 0px;
+    box-shadow: 0px -1px 6px #ffffff;
+    margin-top: 4px;
+}
+
+footer p{
+    padding: 2px;
+    margin-top: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav{
+    background-color: #e4203b;
+    padding: 9px;
+    border-radius:10px ;
+    box-shadow: 1px 1px 3px #F53618;
+}
+
+nav li{
+    display: inline;
+    background-color: #e4203b;
+}
+
+nav li a{
+    padding: 15px auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    text-align: center;
+    margin: 25px;
+}
+
+section{
+    text-align: center;
+}
+
+section p{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px floralwhite;
+    width: 95%;
+    margin: 0px auto;
+}
+
+section video{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+figure{
+    margin-top: 25px;
+}
+
+.classActorSection{
+    width: 90%;
+    margin: auto;
+}
+
+article{
+    margin: 10px;
+}
+
+article img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
