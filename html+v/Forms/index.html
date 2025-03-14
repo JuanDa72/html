@@ -21,14 +21,31 @@
         </header>
 
         <form action="" name="formulario" method="get">
-        <input type="text" name="No se que poner aquí" id="primer texto">
-        <input type="submit" value="Enviar">
+        <input type="text" name="No se que poner aquí" id="primer texto" placeholder="Aquí se puede poner cualquier cosa">
+
 
         Email: <input type="email" name="email" id="emailbotton">
-        <input type="submit" value="Envía tu email">
-
+    
         Edad: <input type="number" name="edad" id="edad" min="18">
-        <input type="submit" value="pon la edad xd">
+    
+        Probando un tipo range: <input type="range", name="rango", id="rango">
+
+        <datalist id="el padrino">
+
+            <option value="El padrino 1" label="opcion 1"></option>
+            <option value="El padrino 2" label="opcion 2"></option>
+            <option value="El padrino 3" label="opcion 3"></option>
+    
+        </datalist>
+
+        <sb>
+
+        Película favorita: <input type="text" name="Película" id="Película" list="el padrino">
+
+
+
+
+        <input type="submit" value="Enviar">
 
         </form> <!-- Action sirve para colocar a donde se enviaran los datos-->
 
