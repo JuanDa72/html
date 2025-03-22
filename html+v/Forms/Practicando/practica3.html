@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table{
+        text-align: center;
+        background-color: rgb(146, 223, 102);
+        width: 35%;
+        margin:auto;
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    caption{
+        background-color: rgb(146, 223, 102);
+        border-radius: 8px 8px 0px 0px;
+        padding-top:15px;
+    }
+
+    td{
+        padding: 25px;
+    }
+
+</style>
+
+
+<script>
+    var edad;
+
+    function comenzar(){
+        edad=document.getElementById("edad");
+        edad.addEventListener("input",cambia_rango, false);
+        document.formulario.addEventListener("invalid",validar,true);
+        document.getElementById("enviar").addEventListener("click",enviar,false);
+    }
+
+    function cambia_rango(){
+        var salida=document.getElementById("rango");
+        var calculo=edad.value-30;
+
+        if(calculo<30){
+            calculo=0;
+            edad.value=30;
+        }
+
+        salida.innerHTML=calculo+" a "+edad.value;
+    }
+
+    window.addEventListener("load",comenzar,false);
+
+</script>
+
+<body>
+    <br>
+    <section>
+        <form name="formualario" method="get">
+            <table>
+                <caption> Formulario con mas js</caption>
+                <tr> <td> Usuario: </td>
+                <td> <input pattern="[A-Za-z]{3}" name="usuario" id="usuario" required></td></tr>
+                <tr> <td> Email: </td>
+                <td> <input type="email", name="email" id="email" required></td></tr>
+                <tr> <td> Edad: </td>
+                <td> <input type="range" name="edad" id="edad" min="0" max="120" value="30"></td></tr>
+                <tr><td> <output id="rango"> 0 a 30</output> </td></tr>
+                <tr> <td> <input type="submit" id="enviar" value="Registrar"></td></tr>
+            </table>
+        </form>
+    </section>
+    
+</body>
+</html>
